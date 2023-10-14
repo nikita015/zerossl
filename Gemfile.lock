@@ -2,22 +2,24 @@ PATH
   remote: .
   specs:
     zerossl (0.1.0)
-      dry-configurable (~> 0.11)
+      dry-configurable (~> 0.16.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    concurrent-ruby (1.1.9)
-    dry-configurable (0.12.1)
+    concurrent-ruby (1.2.2)
+    dry-configurable (0.16.1)
+      dry-core (~> 0.6)
+      zeitwerk (~> 2.6)
+    dry-core (0.9.1)
       concurrent-ruby (~> 1.0)
-      dry-core (~> 0.5, >= 0.5.0)
-    dry-core (0.7.1)
-      concurrent-ruby (~> 1.0)
-    minitest (5.14.4)
+      zeitwerk (~> 2.6)
+    minitest (5.20.0)
     rake (12.3.3)
+    zeitwerk (2.6.12)
 
 PLATFORMS
-  ruby
+  x86_64-darwin-19
 
 DEPENDENCIES
   minitest (~> 5.0)
@@ -25,4 +27,4 @@ DEPENDENCIES
   zerossl!
 
 BUNDLED WITH
-   2.1.4
+   2.2.16
